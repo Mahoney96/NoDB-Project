@@ -1,3 +1,65 @@
+# VENTO aka. 'Vent Openly' - A space to index/log any self-frustrations/worries that are stuck on a repeative for-Loop running in your head, and a save space to track a few goals if you’re feeling like it. - Stop overthinking, write down your problems visually, accept how minimal they are, make a plan to overcome. 
+
+
+## Application Concapt and Wireframe
+
+### Application Concept
+
+- This is a self-wellness scheduling and loggin app. 
+- Full CRUD
+- GET: get
+- POST:
+- PUT:
+- Delete: 
+
+### Functionality 
+
+- Want the header at the top to display the name of the app. 
+- when App loads, three clickable boxes will appear as the App's main  directory menu: "Profile", "VENTO Log", "Profile Settiings".
+    - Profile: Cickable button, loads the Profile Menu page. 
+    - VENTO Log: Cickable button, loads the VENTO Log Menu screen. 
+    - Profile Settings: Cickable button, loads the Profile Settings Menu. 
+-
+
+
+
+- Profile Menu Page
+
+- Displays a User profile button and a 'user settings' button. 
+
+    -User Profile: Click on the button and the user info with appear in a dropdown Action-taken: returning info from the back-end for that user, then the user has option to edit current info.
+
+    -User settings:
+        - User settings contains a boolean returning a 'true or 'false' property regarding if users are sharing their profile info with other users. So the boolean is either permission granted or denied. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
