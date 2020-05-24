@@ -7,14 +7,14 @@
 
 - This is a self-wellness scheduling and loggin app. 
 - Full CRUD
-- GET: get
-- POST:
-- PUT:
-- Delete: 
+    - GET: get
+    - POST:
+    - PUT:
+    - Delete: 
 
 ### Functionality 
 
-- Want the header at the top to display the name of the app. 
+- The header at the top to display the name of the app. 
 - when App loads, three clickable boxes will appear as the App's main  directory menu: "Profile", "VENTO Log", "Profile Settiings".
     - Profile: Cickable button, loads the Profile Menu page. 
     - VENTO Log: Cickable button, loads the VENTO Log Menu screen. 
