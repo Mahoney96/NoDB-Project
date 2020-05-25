@@ -22,9 +22,11 @@ app.get('/api/', searchCtrl.findRelevantArticle )
 app.post('/api/profileCrtl')
 
 // Profile info Endpoints
-app.get('api/userProfileInfo',)
-app.put('api/userProfileInfo',)
-app.get('api/articleCtrl.uArticle.[]')
+app.get('api/userProfileInfo', profileCtrl.findUserInfo)
+app.put('api/userProfileInfo_id', profileCtrl.editUserInfo)
+app.delete('api/userProfileInfo_id', profileCtrl.deleteUserInfo)
+
+app.put('api/articleCtrl.uArticle_id',)
 
 
 
