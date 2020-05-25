@@ -18,7 +18,30 @@
 - when App loads, three clickable boxes will appear as the App's main  directory menu: "Profile", "VENTO Log", "Profile Settiings".
     - Profile: Cickable button, loads the Profile Menu page. 
     - VENTO Log: Cickable button, loads the VENTO Log Menu screen. 
-    - Profile Settings: Cickable button, loads the Profile Settings Menu. 
+    - articleSearchController will use the google search engine to search for relevant articles.
+    Different Controllers:
+
+Different controllers for App:
+
+articleSearchController.js
+- Will pull in relevant articles searched in the Google Search engine, containing specified Websites to search in. 
+
+profileInfoController.js 
+- Will save and change data enter in user profile
+
+userArticlesSavedController.js
+- Will Save and delete the files pulled in from articleSearchController.  Article 
+
+Components:
+
+Header.js 
+
+UserProfile.js
+
+UserArticleLibrary.js
+
+SearchEngine.js
+
 
 ### Endpoints 
 - GET - Return a different display screen

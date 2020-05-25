@@ -4,6 +4,7 @@ let id = 1
 
 module.exports = {
     getSearchedArticle: (req, res) => {},
+    postSearchedArticle: (req, res) = {},
     saveArticle: (req, res) => {},
     deleteArticle: (req, res) => {},
 }
