@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
+
 const profileCtrl = require('./controllers/profileInfoController')
 const searchCtrl = require('./controllers/articleSearchController')
 const articleCtrl = require('./controllers/userArticlesSavedController')
+
 const SERVER_PORT = 6039
 
 app.use(express.json())
@@ -10,7 +12,12 @@ app.use(express.json())
 
 
 // Article Search Endpoints
-app.get('/api/Google-Custom-search', articleCtrl.)
+app.get('/api/Google-Custom-search', articleCtrl.getSearchedArticle)
+app.post('/api/Google-Custom-search', articleCtrl.displayArticle )
+
+app.post('/api/Google-Custom-search', articleCtrl.displayArticle )
+
+app.delete('/api/Google-Custom-search', articleCtrl.deleteArticle )
 
 // User articles saved Endpoints
 
@@ -18,7 +25,8 @@ app.get('/api/', searchCtrl.findRelevantArticle )
 app.post('/api/profileCrtl')
 
 // Profile info Endpoints
-app.get('api/')
+app.get('api/userProfileInfo')
+app.get('api/articleCtrl.uArticle.[]')
 
 
 

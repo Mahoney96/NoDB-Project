@@ -10,3 +10,8 @@ module.exports = {
 }
 
 
+//Need to create an index array,  storing/containing the different saved components (the articles), the users selected. Have to be able to perform full CRUD:
+//  - get: return userArticles from the custom search engine
+//  - post: saved desired article to user directory
+//  - put:  replace older article directory with new directory containing additional file 
+//  - delete: delete any unwanted saved articles
