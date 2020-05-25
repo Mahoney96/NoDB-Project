@@ -19,11 +19,29 @@
     - Profile: Cickable button, loads the Profile Menu page. 
     - VENTO Log: Cickable button, loads the VENTO Log Menu screen. 
     - Profile Settings: Cickable button, loads the Profile Settings Menu. 
--
+
+### Endpoints 
+- GET - Return a different display screen
+
+-VENTO Articles:
+- GET - return 2 news articles. (retrieve on front/back end)
+- POST - push a related article
+- PUT - change article
+- DELETE - current article displayed. 
+
+- User Profile:
+- GET - User Profile entry fields
+- POST - Push prompts to edit information
+- PUT - change current data entries
+- DELETE - delete older user info
+
+### Component Architecture 
+
+-App.js (stateful: hold the user profile information, this.state.userProfile)
+- 
 
 
 
-- Profile Menu Page
 
 - Displays a User profile button and a 'user settings' button. 
 
