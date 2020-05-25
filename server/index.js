@@ -22,8 +22,8 @@ app.get('/api/', searchCtrl.findRelevantArticle )
 app.post('/api/profileCrtl')
 
 // Profile info Endpoints
-app.get('api/userProfileInfo', profileCtrl.findUserInfo)
-app.put('api/userProfileInfo_id', profileCtrl.editUserInfo)
+app.get('api/userProfile.Info', profileCtrl.findUserInfo) //the api connects to the component userProfile
+app.put('api/userProfile.Info_id', profileCtrl.editUserInfo)
 app.delete('api/userProfileInfo_id', profileCtrl.deleteUserInfo)
 
 app.put('api/articleCtrl.uArticle_id',)
