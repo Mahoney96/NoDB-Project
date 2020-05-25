@@ -4,8 +4,7 @@ let id = 1
 
 module.exports = {
     getSearchedArticle: (req, res) => {},
-    displayArticle: (req, res) => {},
-    savedDsiplayedArticle: (req, res) => {},
+    saveArticle: (req, res) => {},
     deleteArticle: (req, res) => {},
 }
 
@@ -14,4 +13,4 @@ module.exports = {
 //  - get: return userArticles from the custom search engine
 //  - post: saved desired article to user directory
 //  - put:  replace older article directory with new directory containing additional file 
-//  - delete: delete any unwanted saved articles
+//  - delete: delete any unwanted saved articles in directory
